@@ -1,0 +1,77 @@
+/* body{
+    background-color: lightgoldenrodyellow;
+}
+
+.home{
+    font-family:'Times New Roman', Times, serif;color:black;
+}
+#class{
+    font-style: italic;color: black;font-size: medium;
+}
+
+#ruth{
+    font-weight: 90;font-style:italic;
+} */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wgh@300;400;500;600;700;800;900&display=swap');
+
+ * {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+ }
+
+ body{
+    background:hsl(60, 64%, 83%);
+ }
+
+ .header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 10%;
+    background:rgb(249, 253, 255);
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index:100;
+ }
+ .logo{
+    font-size:30px;
+    color:beige;
+    font-weight: 600;
+ }
+ .navbar a {
+    font-size: 20px;
+    color:beige;
+    font-weight:500;
+    margin-left: 40px;
+    transition: .2s;
+ }
+
+
+ .navbar a:hover{
+    color:lightblue;
+
+ }
+
+ #headed{
+   font-style: italic;font-family:  'Times New Roman';
+ }
+
+.singlecol{
+   max-width: 750px;
+   margin: 0 aut;
+
+}
+
+
+
+.social-mediai-icons-white a {
+   color: white ;
+font-size: 5rem;
+}
+.alert-alert-warning{
+   font-size: larger;
+}
